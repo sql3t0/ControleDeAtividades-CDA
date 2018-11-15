@@ -1,5 +1,5 @@
 # ControleDeAtividades-CDA
-Simples Controle de Atividades criado com HTML,CSS,PHP,JavaScript e MySQL
+Simples Controle de Atividades criado com HTML,CSS,JavaScript,PHP e MySQL.
 
 - Tela de Login
 <img src="https://raw.githubusercontent.com/sql3t0/ControleDeAtividades-CDA/master/imagens/TelaDeLogin.png"/>
