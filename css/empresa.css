@@ -1,0 +1,49 @@
+
+body {
+	background-color: transparent !important;
+}
+
+/*--------------------------*/
+/* propriedades de classes */
+/*------------------------*/
+.box3D {
+	border-radius:5px 5px 5px 5px;
+	transition: box-shadow 1s;
+}
+.box3D:hover {
+	box-shadow: 8px 6px 5px #888888;
+	border:solid 0.5px #fff;
+}
+
+.tb_cabecalho{
+	background-color: #0069d9 !important;
+	border:solid 1px #000 !important;
+	text-align: center !important;
+}
+
+.th_filtro{
+	background-color: transparent !important;
+	font-size: 12px !important;
+}
+
+.tr_font{font-size: 13px !important;}
+.bt_excluir{color:#212529 !important;}
+.bg_bt_excluir{background-color:#0069d9 !important;}
+
+#coluna_add_user_direita{padding: 50px;}
+#bt_modal{width: 50%; margin-left: 25%;}
+#bt_atulizar_empresa{width:100%;margin-top: 20px;}
+#bt_cadastrar_empresa{width:100%;margin-top: 20px;}
+#bt_nova_empresa{margin: 15px;}
+#inp_nome_edit{padding-left: 0px;padding-right: 0px;}
+#inp_codigoFortes_edit{margin-left:5px;padding-left: 0px;padding-right: 0px;}
+#size_body_empresa{height: 250px;}
+
+
+
+
+
+
+
+
+

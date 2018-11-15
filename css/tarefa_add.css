@@ -1,0 +1,36 @@
+
+
+
+#dt_ini{height: 40px;}
+#lb_data_fim{}
+#dt_fim{height: 40px;}
+#box_date{border:solid 1px #F42328; padding: 20px; margin-top: 25px; width: 250px;}
+#txt_area{margin-top: 14px;}
+#container_fluid{padding: 30px;}
+
+/*botao cadastrar*/
+#bt_cadastrar{width: 150px;}
+#bt_modal{width: 250px;margin-left: 0%; margin-top: 20px;}
+
+
+/*--------------------------*/
+/* propriedades de classes */
+/*------------------------*/
+.box3D {
+    border-radius:5px 5px 5px 5px;
+    transition: box-shadow 1s;
+}
+.box3D:hover {
+    box-shadow: 8px 6px 5px #888888;
+    border:solid 0.5px #fff;
+}
+
+#container-fluid.row {
+	width: 50%;
+}
+
+body {
+	background-color: transparent !important;
+}
+
+

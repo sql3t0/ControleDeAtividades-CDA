@@ -1,0 +1,68 @@
+
+body {
+	background-color: transparent !important;
+}
+
+/*--------------------------*/
+/* propriedades de classes */
+/*------------------------*/
+.box3D {
+	border-radius:5px 5px 5px 5px;
+	transition: box-shadow 1s;
+}
+.box3D:hover {
+	box-shadow: 8px 6px 5px #888888;
+	border:solid 0.5px #fff;
+}
+
+.tb_cabecalho{
+	background-color: #0069d9 !important;
+	border:solid 1px #000 !important;
+}
+
+#row1{margin-top: 10px;}
+
+#bt_relatorio{width: 100%;}
+#bt_imprimir{width: 100%;}
+#frame_principal{
+	overflow-x: hidden; 
+	overflow-y: scroll ;
+}
+#frame_relatorio{
+	width:100%;
+	height:100%;
+	border-radius: 5px;
+	border-style:none;
+	background-color: rgba(0,0,0,0.2);
+	overflow-x: hidden; 
+	overflow-y: scroll ;
+}
+
+/*
+ *  PROPRIEDADES DA TABELA DE RELATORIO
+ */
+#minhaTabela{font-size: 11px !important;}
+@media only print {
+	#minhaTabela{
+	    color: black !important;
+	    /* actually trick with white text-shadow not work ( */
+	    text-shadow: 0 0 3px #FFF !important;
+	}
+	h5{
+		color: black !important;
+	}
+	th{
+		color: black !important;
+	}
+}
+
+#th_usuario{text-align: left !important;}
+
+
+
+
+
+
+
+
+

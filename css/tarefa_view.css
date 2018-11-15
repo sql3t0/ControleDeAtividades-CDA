@@ -1,0 +1,74 @@
+
+#avisos{background-color: transparent !important;}
+#form_id{background-color: transparent !important;}
+#dt_ini{height: 40px;}
+#lb_data_fim{}
+#dt_fim{height: 40px;}
+#box_date{border:solid 1px #0069d9; padding: 20px;margin-top: 25px;}
+#txt_area{margin-top: 24px;}
+#container_fluid{padding: 40px;}
+#minhaTabela thead th:nth-child(1){ width:100px; }
+#minhaTabela input{ color:#fff; width:100%;}
+#tr_filtro{
+	background-color: transparent !important;
+}
+/*botao cadastrar*/
+#bt_cadastrar{width: 150px;}
+#bt_modal{width: 255px; margin-top: 29px;}
+
+.bt_criar_tarefa{margin-top: -100px !important;margin-left: -40px !important;margin-bottom: -60px !important;}
+.bt_excluir{color:#212529 !important;}
+.bg_bt_excluir{background-color:#0069d9 !important;}
+/*--------------------------*/
+/* propriedades de classes */
+/*------------------------*/
+.box3D {
+    border-radius:5px 5px 5px 5px;
+    transition: box-shadow 1s;
+}
+.box3D:hover {
+    box-shadow: 8px 6px 5px #888888;
+    border:solid 0.5px #fff;
+    border-radius: 10px;
+}
+
+.box3D_tr {
+    border-radius:5px 5px 5px 5px;
+    transition: box-shadow 0.2s;
+}
+.box3D_tr:hover {
+    box-shadow: 3px 3px 3px 3px #000;
+    border:solid 0.5px #fff;
+    border-radius: 10px;
+}
+
+.tb_cabecalho{
+	background-color: #0069d9 !important;
+	border:solid 1px #000 !important;
+	text-align: center !important;
+	font-size: 10px !important;
+}
+.th_filtro{
+	background-color: #32383e !important;
+	font-size: 12px !important;
+}
+
+.tr_font{font-size: 13px !important;}
+
+.transparente_bg{background-color: transparent;}
+
+body {
+	background-color: transparent !important;
+}
+
+.buttons_trs{
+    padding: 0px !important;
+    border-radius: 100% !important;
+    border:0px !important;
+    background-color: transparent !important;
+    color:#000 !important;
+    margin:0px;
+}
+
+
+

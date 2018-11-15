@@ -1,0 +1,62 @@
+/*
+contém os estilos que serão utilizados pelo sistema
+
+Copyright (c) 2008 Aline Lima, Aline Magalhães, Andréa Lopes, Frederico Pimentel.
+Este documento permite cópia, distribuição e/ou modificação garantida sob os termos da Lincença Pública Geral Menor do GNU conforme publicada pela Free Software Foundation; tanto a versão 2.1 da Licença quanto as versões posteriores. Esta biblioteca é distribuído na expectativa de que seja útil, porém, SEM NENHUMA GARANTIA; nem mesmo a garantia implícita de COMERCIABILIDADE OU ADEQUAÇÃO A UMA FINALIDADE ESPECÍFICA. Consulte a Licença Pública Geral Menor do GNU para mais detalhes. 
+*/
+
+/*Define as configurações que serão usadas na tabela*/
+table{
+	width:800px;
+	border:#000000 1px solid;
+}
+/*Define as configurações que serão usadas na célula da tabela*/
+td{
+	border:#dbdbdb 1px solid;
+}
+.linha{
+	background-color:#ffffff;
+}
+body{
+	font:Verdana, Arial, Helvetica, sans-serif; color:#333399;
+}
+table{
+	width:100%; 
+	border:#f4f4f4 2px outset; 
+	background-color:#006699;
+}
+img {
+	border:none
+}
+.linhas{
+	background-color: #f7f7f7
+}
+#editar, #excluir, #codigo{
+	width:60px; 
+	text-align:center
+	}
+#preco{
+	width:150px
+}
+#titulo{
+	font-size:18px; 
+	color:#003399; 
+	text-align:center; 
+	background:url(images/table_title_bg.png) repeat-x center;
+}
+
+#cabecalho, #novo{
+	background:url(images/table_header_bg.png) repeat-x center;
+}
+.linhaSelecionada{
+	background-color: #B6C1E0; font-weight:bold;
+}
+.aviso{
+	border: thin solid #000000; 
+	font-size:12pt; 
+	font-weight:bold; 
+	color:#ffffff; 
+	padding-bottom:10px; 
+	padding-top:50px; 
+	background:url(images/loader.gif) no-repeat center #006699;
+}
